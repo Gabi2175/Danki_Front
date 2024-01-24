@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+/*
+h2{
+    font-size: 17px;
+    font-style: italic;
+    font-family: Verdana;
+}
+
+.teste{
+    color: crimson;
+}
+ 
+#teste{
+    color: blueviolet;
+}
+
+p.parágrafo{
+    font-size: 30px;
+}
+
+[type=button]{
+    background-color: red;
+}
+
+[type=text]{
+    width: 900px;
+}
+
+
+div{
+    background-color: rgba(9, 205, 182, 0.852);
+}
+
+h2{
+    color: rgb(52, 7, 82);
+}
+*/
+/*como colocar imagen de fundo-54*/
+/*
+.bg{
+    width: 100%;
+    height: 400px;
+    background-image: url("../imagens/landscape.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+}
+*/
+/*controle de display-97*/
+/*
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.d1{
+
+    width: 100%;
+    background-color: blue;
+    
+}
+
+.d2{
+    width: 50%;
+    height: 300px;
+    background-color: red;
+}
+.d3{
+    width: 50%;
+    height: 300px;
+    background-color: green;
+}
+*/
+/*animar o site*/
+/*
+@keyframes anim1{
+    from{background-color: green;width: 400px;}
+    to{background-color: red;width: 2px;}
+}
+
+.teste{
+    width: 400px;
+    height: 400px;
+    background-color: green;
+    animation-name: anim1;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+*/
+
+/*aula do formulario completo-154*/
+/*
+body{
+    background-color: #27282D;
+}
+
+.form{
+    text-align: center;
+    padding: 20px;
+}
+
+.form img{
+    max-width: 500px;
+    width: 100%;
+}
+
+.form input[type=text],
+.form input[type=email]{
+    max-width: 500px;
+    display: block;
+    border-radius: 20px;
+    font-size: 16px;
+    margin: 10px auto;
+    padding-left: 10px;
+    width: 100%;
+    height: 35px;
+    border: 1px solid #ccc;
+}
+
+.form textarea{
+    resize: vertical;
+    max-width: 500px;
+    display: block;
+    border-radius: 20px;
+    font-size: 16px;
+    width: 100%;
+    height: 120px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.form input[type=submit]{
+    max-width: 500px;
+    display: block;
+    border-radius: 20px;
+    font-size: 16px;
+    margin: 10px auto;
+    padding-left: 10px;
+    width: 100%;
+    height: 35px;
+    cursor: pointer;
+    color: white;
+    background-color: #571aad;
+    border: 1px solid #ccc;
+}
+*/
+/*aula variaveis-167*/
+/*
+:root{
+    --corPadrao: blue;
+    --widthPadrao:300px;
+}
+
+div{
+    background-color: var(--corPadrao);
+    max-width: var(--widthPadrao);
+    margin: 0 auto;---isso centraliza o texto
+}
+*/
+/*design responsivo-187*/
+/*
+.box{
+    width: 500px;
+    height: 500px;
+    background-color: cyan;
+}
+
+@media screen and (max-width: 768px) {
+    .box{
+        width: 100%;
+    }
+} 
+
+@media screen and (max-width : 400px){
+   .box {
+    background-color: red;
+   }
+}
+*/
+/*mobile first-206*/
+/*
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    width: 100%;
+    border: 1px solid black;
+    height: 500px;
+    background-color: cyan;
+}
+
+@media screen and (min-width: 768px) {
+    .box{
+        width: 33.3%;
+    }
+}
+*/
+/*responsividade-262*/
+/*
+header{
+    background-color: blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.w50{
+    width: 50%;
+    padding:0 10px;
+}
+
+.menu{text-align: right;}
+
+section.banner{
+    width: 100%;
+    min-height: 500px;
+    background-color: darkblue;
+    text-align: center;
+    padding: 90px 0;
+    color: white;
+}
+
+section.diferenciais{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.w33{
+    width: 33.3%;
+    padding: 0 10px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: darkorchid;
+}
+@media screen and (max-width: 768px) {
+    header{
+        text-align: center;
+    }
+    .menu{
+        text-align: center;
+    }
+    .w33,.w50{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+*/
+/*galeria de fotos*/
+.wraper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wraper .img{width: 25%;}
+
+img{
+    max-width: 100%;
+}
+
+@media screen and(max-width: 1024px){
+    .wraper .img{width: 33.3%;}
+}
+
+@media screen and(max-width:768px) {
+    .wraper .img{width: 50%;}
+}
+
+@media screen and(max-width:580px){
+    .wraper .img{width: 100%;}
+}
+
+
+
